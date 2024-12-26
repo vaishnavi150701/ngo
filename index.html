@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ngo</title>
+   
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- for icon  -->
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Yellowtail&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+  </head>
+  
+
+<body>
+
+  <!--  -->
+
+  <!--  -->
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgb(250, 164, 3);">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand " href="#"><img class="logo" src="./images/logo.jpeg"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" >About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Conatact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Resources</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search"  style="border-color: black;"  placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success"  type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--  -->
+      
+       <!-- slide show -->
+       <div id="real">
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption " style="" >
+                <!-- <h1>“In this moment, we can either choose despair or revolution.”</h1> -->
+              <h1 class="text-animation">
+                <span class="word ps-5">In this moment </span>
+                <span class="word">we can</span>
+                <span class="word">either choose</span>
+                <span class="word">despair or</span>
+                <span class="word">revolution.</span>
+                <br>
+                
+              </h1>
+              <p class="word">Our 24/7 Helpline Cares.</p>
+              <a href="#" class="btn   text-white  btn-dark " style="background-color: green;">Helpline</a>
+              <a href="#" class="btn   text-white  btn-dark " style=" background-color: brown;  margin-top: 5px;">Donate Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+             
+              <h2>“We must accept finite disappointment, but never lose infinite hope.”</h2>
+              <p>24/7 Helpline Cares.</p>
+              <a href="#" class="btn   text-white  btn-dark " style="background-color: green;">Helpline</a>
+              <a href="#" class="btn   text-white  btn-dark " style=" background-color: brown;  margin-top: 5px;">Donate Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/tr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <!-- <h5>Third slide label</h5> -->
+             
+
+              <h2>Remember your dream</h2>
+              <h4> Supporting You Every Hour, Every Day:
+                Our 24/7 Helpline Cares.</h4>
+                <a href="#" class="btn   text-white  btn-dark " style="background-color: green;">Helpline</a>
+              <a href="#" class="btn   text-white  btn-dark " style=" background-color: brown;  margin-top: 5px;">Donate Now</a>
+             
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+      </div>
+      
+      <!-- -->
+      <div class=" pt-5 pb-5"  data-aos="fade-down" style="background-color:rgb(255, 255, 255);">
+        <div class="text-center ">
+        <div class="container">
+            <div class="row">
+               
+    
+                
+                <div  class="col-sm-6 col-md-4  col-lg-4 col-xl-4   "> 
+                  <div style="border-color: #030303; ; border: solid 1px;" class=" pt-3 pb-3 mx-5 mt-3">
+                    <span class="material-icons fs-1">
+                        sentiment_satisfied_alt
+                        </span>
+                    <p class="fs-2  counter"data-target="7890">0</p><span class="span1"></span>
+                    <h4>Total Cases Solved</h4>
+                    </div>
+                 </div>
+                 <div  class="col-sm-6 col-md-4 col-lg-4 col-xl-4 " >
+                  <div style="border-color: #000000; border: solid 1px;" class="  pt-3 pb-3 mx-5 mt-3">
+                    <span class="material-icons fs-1">
+                        business
+                        </span>
+                    <p class="fs-2  counter  "data-target="370">0</p><span class="span1"></span>
+                    <h4>Fundraising</h4>
+                 </div>
+                 </div>
+                 <!-- <div  class="col-sm-6 col-md-3 col-lg-3 col-xl-3" > 
+                  <div style="border-color: #000000; border: solid 1px;" class=" pt-3 pb-3 mx-5 mt-3">
+                    <span class="material-icons fs-1">
+                        home
+                        </span>
+                    <p class="fs-2 counter "  data-target="1890">0 </p><span class="span1"></span>
+                    <h4>Become A Volunteer</h4>
+                 </div>
+                 </div> -->
+                 <div  class="col-sm-6 col-md-4 col-lg-4 col-xl-4 " >
+                  <div style="border-color: #373838; border: solid 1px;" class="  pt-3 pb-3 mx-5 mt-3">
+                   
+                    <span class="material-icons fs-1">
+                        perm_identity
+                        </span>
+                    <p class="fs-2 counter"  data-target="97890">0 </p><span class="span1"></span>
+                      <h4  class="">Become A Volunteer</h4>
+                 </div>
+             </div>
+             </div>
+            </div>
+        </div>
+        <script src="./number.js"></script> 
+        </div>
+  <!-- About Us -->
+  <section id="about" class="py-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img1.jpg); background-size: cover; background-position: center;">
+    <div class="container">
+      <div class="row">
+      <h1>About Us</h1>
+      <p><strong >
+        we believe that mental health is a fundamental aspect of overall well-being. Founded with a vision to create a society where mental health is prioritized and supported, we are dedicated to providing compassionate care, education, and resources to empower individuals in managing stress and achieving mental wellness.</strong></p>
+      <!-- <div  class=" col-sm-12 col-md-6 col-lg-6 col-xl-6">  </div> -->
+      <div class="col-md-7 mt-5" data-aos="fade-up-right">
+      <div class="card  " >
+        <div class="card-body">
+            <h5 class="card-title  ">Mental Health Support</h5>
+            <p class="card-text mt-5 ">Provide counseling services and support groups for individuals struggling with mental health issues.</p>
+        </div>
+        </div>
+    </div>
+    <!-- <div  class=" col-sm-12 col-md-6 col-lg-6 col-xl-6">  -->
+        <div class="col-md-6  mt-3" data-aos="fade-up-right"   data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stress Management</h5>
+                        <p class="card-text">Offer workshops and resources for stress reduction and coping strategies.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- <div  class=" col-sm-12 col-md-6 col-lg-6 col-xl-6 "> -->
+    <div class="col-md-4" >
+      <div class="card"  data-aos="fade-up-right"   data-aos-offset="400"
+      data-aos-easing="ease-in-sine">
+          <div class="card-body">
+              <h5 class="card-title">Mental Health Awareness</h5>
+              <p class="card-text">Educate communities about mental health issues and provide resources for support.</p>
+          </div>
+      </div>
+  </div>
+  </div>
+   </div>
+   
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="row">
+      <h2>Our Services</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+      <div class="col-md-6 mt-5">
+        <div class="video-container" data-aos="zoom-in-down">
+          <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=d96akWDnx0w" frameborder="0" allowfullscreen></iframe> -->
+          <iframe width="560" height="415" src="https://www.youtube.com/embed/d96akWDnx0w?si=gZ29YMkkMY4xVhCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <!-- <img   style="padding-top: 200px;" src="https://www.worldvision.in/Gift-catelogue/images/GC_Banner%20at%20the%20bottom%20of%20the%20page.jpg" style="width:700px;" alt="" />  -->
+        </div>
+      </div>
+      <div class="col-md-6 mt-2"  data-aos="fade-down"   data-aos-offset="600"
+      data-aos-easing="ease-in-sine">
+        <div class="content-boxes"  >
+          <div class="content-box">
+            <h3>Awareness Program</h3>
+            <p>
+ The Awareness Program actively educates various communities, based on their needs regarding mental well being and coping with emotional distress.</p>
+ <!-- <a href="#" class="btn   text-dark  btn-dark " style="background-color: rgb(144, 141, 136);">read more</a> -->
+</div>
+          <div class="content-box" >
+            <h3>Distress Helpline Program</h3>
+            <p> 
+
+              Distress helpline program provides a confidential, non advisory space for those feeling low, and/or suicidal via its telephonic service, walk-in facility and distress mail.
+              </p>
+              <!-- <a href="#" class="btn   text-dark  btn-dark " style="background-color: rgb(144, 141, 136);">read more</a> -->
+          </div>
+          <div class="content-box">
+            <h3>  Suicide Survivor Support Program</h3>
+            <p> 
+
+            
+
+                    The Survivors support program provides survivors of suicide with a non-judgmental environment, and builds self sufficiency within communities to respond to distress and suicide.
+              </p>
+              <!-- <a href="#" class="btn   text-dark  btn-dark " style="background-color: rgb(144, 141, 136);">read more</a> -->
+          </div>
+          <!-- Add more content boxes as needed -->
+        </div>
+      </div>
+</div>
+
+
+        <!-- <img src="https://www.worldvision.in/Gift-catelogue/images/GC_Banner%20at%20the%20bottom%20of%20the%20page.jpg" style="width:700px;" alt="" /> -->
+     </div>
+      
+
+  </section>
+  <div class="container">
+    <div class="row">
+  <img   style="" src="https://www.worldvision.in/Gift-catelogue/images/GC_Banner%20at%20the%20bottom%20of%20the%20page.jpg" style="width:700px;" alt="" /> 
+  </div>
+  </div>
+  <!--  -->
+  <div class="container">
+    <div class="row">
+    
+    </div>
+  </div>
+  
+
+  <!-- Blog -->
+  <!-- <section id="blog" class="py-5">
+    <div class="container">
+      <h2>Our Blog</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+    </div>
+  </section> -->
+
+  <!--  -->
+  
+<section id="Events" class="py-5">
+  <div class="container" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
+    <h2 class="text-center mb-5">Image Gallery</h2>
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="https://media.istockphoto.com/id/645057096/photo/farmer-his-daughter-walking-in-the-wheat-field.jpg?s=612x612&w=0&k=20&c=YHZGtISPgr0koWID0IQs49Wlnf-qou_g1cETkzTeTNg=" alt="Image 1" style="height:250px;" >
+      </div>
+      <div class="gallery-item">
+        <img src="./images/slide3.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="./images/tr.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="./images/3.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="./images/img2.jpg" style="height:250px;" alt="Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="https://media.istockphoto.com/id/672165776/photo/fathers-mothers-and-babys-hand.jpg?s=612x612&w=0&k=20&c=nTj-huWOCW2tvYqAz01a1BZ1Id9r9AYrDPNqYp8YIYg=" alt="Image 2" style="height:250px;" >
+      </div>
+      <!-- Add more gallery items if needed -->
+      <div class="gallery-item">
+        <img src="https://th.bing.com/th?id=OIP.I3xSecmvUf4UTDY0vByl3AHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Image 2" style="height:250px;" >
+      </div>
+      <div class="gallery-item">
+        <img src="https://th.bing.com/th/id/OIP.V0rQVusjefZV4Zi2xDxHpwHaEm?w=242&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image 2" style="height:250px;" >
+      </div>
+      <div class="gallery-item">
+        <img src="https://th.bing.com/th/id/OIP.TlYMdBB8gugyO6JYTpJslgHaES?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image 2" style="height:250px;" >
+      </div>
+   
+    </div>
+<!--  -->
+  </div>
+</section>
+
+
+<!-- successful stories -->
+  
+
+
+
+  
+  
+  <!-- Contact Us -->
+
+<div class="" style="background-color: #f8f9fa;" id="contact">
+  <div class="container">
+      <div class="row">
+       <div  class=" col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 ">
+      <div class="containerCon body1">
+      <h2>Contact Us</h2>
+      <p>For inquiries or to schedule an appointment, please reach out to us:</p>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+       </div>
+     </div>
+      
+     <div  class=" col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 ">
+      <!-- <div  class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3"> -->
+           <div class="containerCon ">
+          <!-- <iframe class="" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7559.902521195344!2d73.7162861!3d18.666183!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1703586600914!5m2!1sen!2sin" width="100%" height="430"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7559.902521195344!2d73.7162861!3d18.666183!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1703586600914!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </iframe>
+         
+           <h3 class="text-danger">visit </h3>
+           <h2>NGO  </h2>
+           <p><b>Reg. Address :</b> A-1104, Kunjban, Sr. No. 6, Kivale -Mamurdi Road,
+              Near Symbiosis Skills and Open University, Mamurdi, Pune – 412 101.</p>
+             <b>Mob:</b> +91-8767614002
+          <b> Email:</b>tomarvaishnavi01@gmail.com,
+          </div>
+     </div>
+     </div>
+  
+  </div>
+  </div>
+
+<!--  -->
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>A brief description of the NGO and its mission.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <p>Email: info@ngo.org</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Street, City, Country</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2024 NGO Name. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!--  -->
+  <a href='#' onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons"  style="font-size: 55px;"> arrow_circle_up </span>
+  </a>
+
+
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!--  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
